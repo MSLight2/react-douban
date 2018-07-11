@@ -1,4 +1,4 @@
-##技术栈：
+# 技术栈： #
 react + redux + webpack + react-router4 + ES6 + material-ui
 ##项目运行
     git clone
