@@ -21,7 +21,7 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 
 >此项目仅供学习使用，请勿做其它用途。如有侵权，请联系本人qq：1841978799本人即刻删除
 
->PS: 开发时APP已改版╮(╯▽╰)╭
+>PS: 开发时官方APP已改版╮(╯▽╰)╭
 # 示列图 #
 ![](https://github.com/MSLight2/react-douban/blob/master/public/GIF.gif?raw=true)
 
