@@ -1,7 +1,7 @@
 # 技术栈： #
 react + redux + webpack + react-router4 + ES6 + material-ui
 # 项目运行 #
-    git clone
+    git clone https://github.com/MSLight2/react-douban.git
 
     cd react-douban
 
@@ -15,11 +15,21 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 
 > 开发环境：win7 + Chrome 66 + nodejs v8.9.3
 
-> 如果觉得还行的话，您可以点右上角 "Star"，谢谢O(∩_∩)O~
+> 如果觉得还行的话，右上角 "Star" 戳一下，谢谢O(∩_∩)O~
 
 > 项目还有很多未完善的方面，如您有更好的方法和问题，欢迎在Issues中提出，一起进步^_^
 
->此项目仅供学习使用，请勿做其它用途。如有侵权，请联系本人qq：1841978799删除
+>此项目仅供学习使用，请勿做其它用途。如有侵权，请联系本人qq：1841978799本人即刻删除
+
+>PS: 开发时APP已改版╮(╯▽╰)╭
+# 示列图 #
+![](https://github.com/MSLight2/react-douban/blob/master/public/GIF.gif?raw=true)
+
+![](https://github.com/MSLight2/react-douban/blob/master/public/GIF2.gif?raw=true)
+
+![](https://github.com/MSLight2/react-douban/blob/master/public/GIF3.gif?raw=true)
+
+![](https://github.com/MSLight2/react-douban/blob/master/public/GIF4.gif?raw=true)
 # 个人总结 #
 ## react开发中的注意点 ##
 * 牢记props和state的注意点和作用及区别
@@ -30,7 +40,7 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 * 路由模块动态加载
 * 要提升项目性能使用immutable
 * 多看官方文档 - 。 -
-# React组件生命周期函数`v15.6.1` #
+# React组件生命周期函数 #
 官方文档：[React组件生命周期](https://facebook.github.io/react/docs/react-component.html "")
 
 ### 一、组件安装（Mounting）###
@@ -42,10 +52,10 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 > 初始化组件的时候调用，整个生命周期中只调用一次，此时可以访问state，但是改变状态不会触发视图的重新渲染，因此不要在这个方法中做一些状态改变的监听
 
 #### 3. render() ####
->react组件中最重要的方法，也是必须的，创建虚拟DOM，进行diff算法，跟新DOM都在这里进行。注意：这是个纯函数。这就意味它着不会改变组件的状态（不能调用this.setState），每次调用都会返回相同的结果。
+>react组件中最重要的方法，也是必须的，创建虚拟DOM，进行diff算法，更新DOM都在这里进行。注意：这是一个纯函数（不能调用this.setState）。
 
 #### 4. componentDidMount() ####
->组件安装完成之后调用。在此可以操作DOM节点且实例化网络请求的好地方，在此获取网络数据并改变相应的状态（state）组件会重新渲染。在此更新state不会触发componentWillReceiveProps()方法
+>组件安装完成之后调用。在此可以操作DOM节点和实例化网络请求，在此获取网络数据并改变相应的状态（state）组件会重新渲染。在此更新state不会触发componentWillReceiveProps()方法
 
 ### 二、组件更新 ###
 #### 1. componentWillReceiveProps(nextProps) ####
@@ -58,7 +68,7 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 组件初始化时不调用，在组件即将要更新时调用。
 
 #### 4. render() ####
->同上
+>emmm...不说第二遍
 
 #### 5. componentDidUpdate(prevProps, prevState) ####
 >组件初始化时不调用，组件更新完成后调用。此时可以操作DOM，也可以在此发送网络请求（如果props没有改变的话也不用发送网络请求）
@@ -69,7 +79,7 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 #### 1. componentWillUnmount() ####
 >组件将要卸载时调用，在此可以做一些清除操作，以节省内存。例如：定时器的清除，取消网络请求，清除无用的DOM元素以及取消事件监听
 
-以上共9个生命周期函数，可以根据自己的组件使用对应的生命周期函数，以提高开发效率和组件性能
+牢记和理解以上这些生命周期函数，可以根据自己的组件使用对应的生命周期函数，以提高开发效率和组件性能（不同版本可能有变化，以官方文档为准）
 
 ### 参考借鉴资料 ###
 [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq "一个 react + redux 的完整项目 和 个人总结")
