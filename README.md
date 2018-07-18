@@ -1,3 +1,5 @@
+业余时间写的，react初学者，多多包涵Q-Q
+
 # 技术栈： #
 react + redux + webpack + react-router4 + ES6 + axios + material-ui
 # 项目运行 #
