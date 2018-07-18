@@ -49,6 +49,7 @@ class CNBooks extends Component {
       this.setState({...CNBookSessionStorage});
     } else {
       this.setState({loadingShow: true});
+      // 一般项目不会这么干，没接口，无奈这么调用
       Promise.all([
         new Promise((resolve, reject) => {
           this.fetchData({
