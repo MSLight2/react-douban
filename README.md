@@ -38,6 +38,7 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 * 请将方法的bind一律置于constructor
 * 在Component的render里不动态bind方法，如果要动态传参，方法可使用闭包返回一个最终可执行函数。如：showDelBtn(item) { return (e) => {}; }
 * 路由模块按需求加载~
+* 跨域问题：react跨域配置不同于vue，在package.json下同‘scripts’一级添加proxy: "http://xxxxx"即可
 * 如要要提升项目性能可使用immutable
 * 多看官方文档，不解释- 。 -
 # React组件生命周期函数 #
@@ -82,7 +83,7 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 牢记和理解以上这些生命周期函数，可以根据自己的组件使用对应的生命周期函数，以提高开发效率和组件性能（不同版本可能有变化，以官方文档为准）
 
 # creat-react-app的使用 #
-> 请参阅 ![creat-react-app](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development)
+> 请参阅 [creat-react-app](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development)
 
 ### 参考借鉴资料 ###
 [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq "一个 react + redux 的完整项目 和 个人总结")
