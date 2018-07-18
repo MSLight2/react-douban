@@ -1,5 +1,3 @@
-业余时间写的，react初学者，多多包涵Q-Q
-
 # 技术栈： #
 react + redux + webpack + react-router4 + ES6 + axios + material-ui
 # 项目运行 #
@@ -17,7 +15,7 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 
 > 开发环境：win7 + Chrome 66 + nodejs v8.9.3
 
-> 如果觉得还行的话，右上角 "Star" 戳一下，谢谢O(∩_∩)O~
+> 项目是业余时间写的，刚(cai)学(ji)react不久，如果觉得还行的话，右上角 "Star" 戳一下，谢谢O(∩_∩)O~
 
 > 项目还有很多未完善的方面，如您有更好的方法一起交流呀；如有问题，欢迎在Issues中提出，一起进步^_^
 
