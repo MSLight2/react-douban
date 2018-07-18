@@ -1,5 +1,5 @@
 # 技术栈： #
-react + redux + webpack + react-router4 + ES6 + material-ui
+react + redux + webpack + react-router4 + ES6 + axios + material-ui
 # 项目运行 #
     git clone https://github.com/MSLight2/react-douban.git
 
@@ -9,7 +9,7 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 
     npm start (运行)
 
-    npm run build (发布)
+    npm run build (打包发布)
 # 说明 #
 > 本项目是模仿【豆瓣阅读】app开发的一个单页面应用程序。
 
@@ -17,11 +17,11 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 
 > 如果觉得还行的话，右上角 "Star" 戳一下，谢谢O(∩_∩)O~
 
-> 项目还有很多未完善的方面，如您有更好的方法和问题，欢迎在Issues中提出，一起进步^_^
+> 项目还有很多未完善的方面，如您有更好的方法一起交流呀；如有问题，欢迎在Issues中提出，一起进步^_^
 
->此项目仅供学习使用，请勿做其它用途。如有侵权，请联系本人qq：1841978799本人即刻删除
+> 此项目仅供学习使用，请勿做其它用途。如有侵权，请联系本人qq：1841978799本人即刻删除
 
->PS: 开发时官方APP已改版╮(╯▽╰)╭
+> PS: 开发时官方APP已改版╮(╯▽╰)╭
 # 示列图 #
 ![](https://github.com/MSLight2/react-douban/blob/master/public/GIF.gif?raw=true)
 
@@ -32,14 +32,14 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 ![](https://github.com/MSLight2/react-douban/blob/master/public/GIF4.gif?raw=true)
 # 个人总结 #
 ## react开发中的注意点 ##
-* 牢记props和state的注意点和作用及区别
+* 区分好props和state
 * 慎用setState，因为会导致重复渲染。
 * 慎将component当作props传入。
 * 请将方法的bind一律置于constructor
 * 在Component的render里不动态bind方法，如果要动态传参，方法可使用闭包返回一个最终可执行函数。如：showDelBtn(item) { return (e) => {}; }
-* 路由模块动态加载
-* 要提升项目性能使用immutable
-* 多看官方文档 - 。 -
+* 路由模块按需求加载~
+* 如要要提升项目性能可使用immutable
+* 多看官方文档，不解释- 。 -
 # React组件生命周期函数 #
 官方文档：[React组件生命周期](https://facebook.github.io/react/docs/react-component.html "")
 
@@ -80,6 +80,9 @@ react + redux + webpack + react-router4 + ES6 + material-ui
 >组件将要卸载时调用，在此可以做一些清除操作，以节省内存。例如：定时器的清除，取消网络请求，清除无用的DOM元素以及取消事件监听
 
 牢记和理解以上这些生命周期函数，可以根据自己的组件使用对应的生命周期函数，以提高开发效率和组件性能（不同版本可能有变化，以官方文档为准）
+
+# creat-react-app的使用 #
+> 请参阅 ![creat-react-app](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development)
 
 ### 参考借鉴资料 ###
 [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq "一个 react + redux 的完整项目 和 个人总结")
