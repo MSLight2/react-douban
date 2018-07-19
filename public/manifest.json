@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "douban",
+  "name": "react for douban",
   "icons": [
     {
       "src": "favicon.ico",
