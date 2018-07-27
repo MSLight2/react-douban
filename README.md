@@ -17,11 +17,11 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 
 > 项目是业余时间写的，刚(cai)学(ji)react不久，如果觉得还行的话，右上角 "Star" 戳一下，谢谢O(∩_∩)O~
 
-> 项目还有很多未完善的方面，如您有更好的方法一起交流呀；如有问题，欢迎在Issues中提出，一起进步^_^
+> 项目还有很多未完善的方面，如您有更好的方法可以一起交流呀；有问题勿怪，欢迎在Issues中提出，一起进步^_^
 
 > 此项目仅供学习使用，请勿做其它用途。如有侵权，请联系本人qq：1841978799本人即刻删除
 
-> PS: 开发时官方APP已改版╮(╯▽╰)╭
+> PS: 开发此项目时官方APP就改版了╮(╯▽╰)╭
 # 示列图 #
 ![](https://github.com/MSLight2/react-douban/blob/master/public/GIF.gif?raw=true)
 
@@ -38,8 +38,8 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 * 请将方法的bind一律置于constructor
 * 在Component的render里不动态bind方法，如果要动态传参，方法可使用闭包返回一个最终可执行函数。如：showDelBtn(item) { return (e) => {}; }
 * 路由模块按需求加载~
-* 跨域问题：react跨域配置不同于vue，在package.json下同‘scripts’一级添加proxy: "http://xxxxx"即可
-* 如要要提升项目性能可使用immutable
+* 跨域问题：react跨域配置不同于vue，在package.json下，同‘scripts’一级添加proxy: "http://xxxxx"即可
+* 如要提升项目性能可使用immutable
 * 多看官方文档，不解释- 。 -
 # React组件生命周期函数 #
 官方文档：[React组件生命周期](https://facebook.github.io/react/docs/react-component.html "")
