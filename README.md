@@ -11,7 +11,7 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 
     npm run build (打包发布)
 # 说明 #
-> 本项目是模仿【豆瓣阅读】app开发的一个单页面应用程序。
+> 这是模仿【豆瓣阅读】app开发的一个单页面应用程序。
 
 > 开发环境：win7 + Chrome 66 + nodejs v8.9.3
 
