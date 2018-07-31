@@ -19,8 +19,6 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 
 > 项目还有很多未完善的方面，如您有更好的方法可以一起交流呀；有问题勿怪，欢迎在Issues中提出，一起进步^_^
 
-> 此项目仅供学习使用，请勿做其它用途。如有侵权，请联系本人qq：1841978799本人即刻删除
-
 > PS: 开发此项目时官方APP就改版了╮(╯▽╰)╭
 # 示列图 #
 ![](https://github.com/MSLight2/react-douban/blob/master/public/GIF.gif?raw=true)
