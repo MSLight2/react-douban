@@ -21,13 +21,9 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 
 > PS: 开发此项目时官方APP就改版了╮(╯▽╰)╭
 # 示列图 #
-![](https://github.com/MSLight2/react-douban/blob/master/public/GIF.gif?raw=true)
+![](https://github.com/MSLight2/react-douban/blob/master/public/GIF.gif?raw=true)![](https://github.com/MSLight2/react-douban/blob/master/public/GIF2.gif?raw=true)
 
-![](https://github.com/MSLight2/react-douban/blob/master/public/GIF2.gif?raw=true)
-
-![](https://github.com/MSLight2/react-douban/blob/master/public/GIF3.gif?raw=true)
-
-![](https://github.com/MSLight2/react-douban/blob/master/public/GIF4.gif?raw=true)
+![](https://github.com/MSLight2/react-douban/blob/master/public/GIF3.gif?raw=true)![](https://github.com/MSLight2/react-douban/blob/master/public/GIF4.gif?raw=true)
 # 个人总结 #
 ## react开发中的注意点 ##
 * 区分好props和state
