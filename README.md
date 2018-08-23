@@ -79,7 +79,7 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 # creat-react-app的使用 #
 > 请参阅 [creat-react-app](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#proxying-api-requests-in-development)
 ### 其它 ###
-[react仿大众点评](https://github.com/MSLight2/react-douban "react-douban")
+[react仿大众点评](https://github.com/MSLight2/react-coom "react-coom")
 ### 参考借鉴资料 ###
 [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq "一个 react + redux 的完整项目 和 个人总结")
 
