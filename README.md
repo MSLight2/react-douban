@@ -15,9 +15,9 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 
 > 开发环境：win7 + Chrome 66 + nodejs v8.9.3
 
-> 项目是业余时间写的，刚(cai)学(ji)react不久，如果觉得还行的话，右上角 "Star" 戳一下，谢谢O(∩_∩)O~
+> 项目是业余时间写的，刚(cai)学(ji)react不久，如果觉得还行的话，右上角 "Star" 戳一下咯O(∩_∩)O~
 
-> 项目还有很多未完善的方面，如您有更好的方法可以一起交流呀；有问题勿怪，欢迎在Issues中提出，一起进步^_^
+> 项目还有很多未完善的方面，有时间再来review = 。=
 
 > PS: 开发此项目时官方APP就改版了╮(╯▽╰)╭
 # 示列图 #
@@ -26,7 +26,6 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 ![](https://github.com/MSLight2/react-douban/blob/master/public/GIF3.gif?raw=true)![](https://github.com/MSLight2/react-douban/blob/master/public/GIF4.gif?raw=true)
 # 个人总结 #
 ## react开发中的注意点 ##
-* 区分好props和state
 * 慎用setState，因为会导致重复渲染。
 * 慎将component当作props传入。
 * 请将方法的bind一律置于constructor
@@ -34,7 +33,7 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 * 路由模块按需求加载~
 * 跨域问题：react跨域配置不同于vue，在package.json下，同‘scripts’一级添加proxy: "http://xxxxx"即可
 * 如要提升项目性能可使用immutable
-* 多看官方文档，不解释- 。 -
+* 其它问题...多看官方文档- 。 -
 # React组件生命周期函数 #
 官方文档：[React组件生命周期](https://facebook.github.io/react/docs/react-component.html "")
 
