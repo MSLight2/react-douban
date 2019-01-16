@@ -83,3 +83,5 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 [一个 react + redux 的完整项目 和 个人总结](https://github.com/bailicangdu/react-pxq "一个 react + redux 的完整项目 和 个人总结")
 
 [React移动web极致优化](https://github.com/lcxfs1991/blog/issues/8 "react优化")
+
+###仅供学习使用，请勿用于其他用途###
