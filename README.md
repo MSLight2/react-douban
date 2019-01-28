@@ -25,7 +25,7 @@ react + redux + webpack + react-router4 + ES6 + axios + material-ui
 
 ![](https://github.com/MSLight2/react-douban/blob/master/public/GIF3.gif?raw=true)![](https://github.com/MSLight2/react-douban/blob/master/public/GIF4.gif?raw=true)
 # 个人总结 #
-## react开发中的注意点 ##
+## 一些开发注意点 ##
 * 慎用setState，因为会导致重复渲染。
 * 慎将component当作props传入。
 * 请将方法的bind一律置于constructor
